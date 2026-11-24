@@ -176,12 +176,14 @@ the DevTools session yourself, run `flutter run -d windows` and paste the
 
 ## Demo video
 
-_Pending — record a short demo and paste the Google Drive/YouTube link here
-before submitting (the lab manual asks for a link, not a video file in the
-zip)._
+**Demo link:** <https://github.com/epislonbenyarko-hue/cy273-lab13-ben-0625/releases/download/v1.0.0-demo/demo_walkthrough.mp4>
 
-Record a short screen capture (search, toggle a favourite, scroll) and paste
-the Google Drive/YouTube link above before submitting.
+The clip is an animated walkthrough assembled from the real widget captures
+above (product list → search filter → favourites). No screen recorder or video
+hosting account was available, so the frames are the deterministic screenshots
+rather than a live recording; the MP4 is hosted as a pre-release asset on the
+project's GitHub repository. For a live recording, run the app and capture the
+same three steps with your phone or screen recorder.
 
 ## Tests
 
