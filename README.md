@@ -166,13 +166,16 @@ the zip instead includes the app screenshots captured locally. Add them to
 - `screenshots/04_launcher_icon_preview.png` — the generated icon in a mock
   home screen (no physical phone was available for a real install shot)
 - `screenshots/05_github_repo.png` — the pushed GitHub repository page
-- `screenshots/06_devtools.png` — Flutter DevTools 2.60 connected to the running
-  UMaT Market app (Windows debug build, Dart VM service live)
+- `screenshots/06_devtools.png` — Flutter DevTools 2.60 **Performance** screen
+  connected to the running UMaT Market app (Windows debug build, Dart VM
+  service live): Flutter frames chart with UI/Raster/Jank legend, 47 FPS avg,
+  and the Frame Analysis / Rebuild Stats / Timeline Events tabs
 
 The first four are deterministic Flutter golden images from the real widgets,
 with `debugShowCheckedModeBanner: false`, so no DEBUG ribbon appears. To open
 the DevTools session yourself, run `flutter run -d windows` and paste the
-`devtools/?uri=…` URL printed by Flutter into a browser.
+`devtools/?uri=…` URL printed by Flutter into a browser, then open the
+Performance screen (`…/devtools/performance?uri=…`).
 
 ## Demo video
 
