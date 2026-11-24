@@ -165,9 +165,10 @@ the zip instead includes the app screenshots captured locally. Add them to
 - `screenshots/03_favourites.png` — two hearts toggled, `♥ 2` in the AppBar
 - `screenshots/04_launcher_icon_preview.png` — the generated icon in a mock
   home screen (no physical phone was available for a real install shot)
+- `screenshots/05_github_repo.png` — the pushed GitHub repository page
 
-These are deterministic Flutter golden images from the real widgets, with
-`debugShowCheckedModeBanner: false`, so no DEBUG ribbon appears.
+The first four are deterministic Flutter golden images from the real widgets,
+with `debugShowCheckedModeBanner: false`, so no DEBUG ribbon appears.
 
 ## Demo video
 
